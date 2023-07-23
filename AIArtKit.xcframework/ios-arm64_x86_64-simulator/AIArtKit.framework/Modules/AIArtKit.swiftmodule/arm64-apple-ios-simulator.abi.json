@@ -1,0 +1,1794 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AIArtKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AIArtKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIArtKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIArtConfigurator",
+        "printedName": "AIArtConfigurator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIArtConfigurator",
+                "printedName": "AIArtKit.AIArtConfigurator",
+                "usr": "c:@M@AIArtKit@objc(cs)AIArtConfigurator"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AIArtKit0A12ConfiguratorC6sharedACvpZ",
+            "mangledName": "$s8AIArtKit0A12ConfiguratorC6sharedACvpZ",
+            "moduleName": "AIArtKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIArtConfigurator",
+                    "printedName": "AIArtKit.AIArtConfigurator",
+                    "usr": "c:@M@AIArtKit@objc(cs)AIArtConfigurator"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit0A12ConfiguratorC6sharedACvgZ",
+                "mangledName": "$s8AIArtKit0A12ConfiguratorC6sharedACvgZ",
+                "moduleName": "AIArtKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIArtConfigurator",
+                    "printedName": "AIArtKit.AIArtConfigurator",
+                    "usr": "c:@M@AIArtKit@objc(cs)AIArtConfigurator"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit0A12ConfiguratorC6sharedACvsZ",
+                "mangledName": "$s8AIArtKit0A12ConfiguratorC6sharedACvsZ",
+                "moduleName": "AIArtKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit0A12ConfiguratorC6sharedACvMZ",
+                "mangledName": "$s8AIArtKit0A12ConfiguratorC6sharedACvMZ",
+                "moduleName": "AIArtKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "root",
+            "printedName": "root",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvpZ",
+            "mangledName": "$s8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvpZ",
+            "moduleName": "AIArtKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvgZ",
+                "mangledName": "$s8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvgZ",
+                "moduleName": "AIArtKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvsZ",
+                "mangledName": "$s8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvsZ",
+                "moduleName": "AIArtKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvMZ",
+                "mangledName": "$s8AIArtKit0A12ConfiguratorC4rootSo16UIViewControllerCSgvMZ",
+                "moduleName": "AIArtKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(purchaseCode:rootController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AIArtKit0A12ConfiguratorC9configure12purchaseCode14rootControllerySS_So06UIViewH0CSgtFZ",
+            "mangledName": "$s8AIArtKit0A12ConfiguratorC9configure12purchaseCode14rootControllerySS_So06UIViewH0CSgtFZ",
+            "moduleName": "AIArtKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIArtConfigurator",
+                "printedName": "AIArtKit.AIArtConfigurator",
+                "usr": "c:@M@AIArtKit@objc(cs)AIArtConfigurator"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AIArtKit@objc(cs)AIArtConfigurator(im)init",
+            "mangledName": "$s8AIArtKit0A12ConfiguratorCACycfc",
+            "moduleName": "AIArtKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AIArtKit@objc(cs)AIArtConfigurator",
+        "mangledName": "$s8AIArtKit0A12ConfiguratorC",
+        "moduleName": "AIArtKit",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIArtManager",
+        "printedName": "AIArtManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "canGenerateMoreArt",
+            "printedName": "canGenerateMoreArt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AIArtKit0A7ManagerC18canGenerateMoreArtSbvp",
+            "mangledName": "$s8AIArtKit0A7ManagerC18canGenerateMoreArtSbvp",
+            "moduleName": "AIArtKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit0A7ManagerC18canGenerateMoreArtSbvg",
+                "mangledName": "$s8AIArtKit0A7ManagerC18canGenerateMoreArtSbvg",
+                "moduleName": "AIArtKit",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "presentLimitErrorAlert",
+            "printedName": "presentLimitErrorAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AIArtKit0A7ManagerC22presentLimitErrorAlertyyF",
+            "mangledName": "$s8AIArtKit0A7ManagerC22presentLimitErrorAlertyyF",
+            "moduleName": "AIArtKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentGenericErrorAlert",
+            "printedName": "presentGenericErrorAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AIArtKit0A7ManagerC24presentGenericErrorAlertyyF",
+            "mangledName": "$s8AIArtKit0A7ManagerC24presentGenericErrorAlertyyF",
+            "moduleName": "AIArtKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateImage",
+            "printedName": "generateImage(promptText:apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AIArtKit0A7ManagerC13generateImage10promptText6apiKeySo7UIImageCSgSS_SStYaF",
+            "mangledName": "$s8AIArtKit0A7ManagerC13generateImage10promptText6apiKeySo7UIImageCSgSS_SStYaF",
+            "moduleName": "AIArtKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIArtManager",
+                "printedName": "AIArtKit.AIArtManager",
+                "usr": "c:@M@AIArtKit@objc(cs)AIArtManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AIArtKit@objc(cs)AIArtManager(im)init",
+            "mangledName": "$s8AIArtKit0A7ManagerCACycfc",
+            "moduleName": "AIArtKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AIArtKit@objc(cs)AIArtManager",
+        "mangledName": "$s8AIArtKit0A7ManagerC",
+        "moduleName": "AIArtKit",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimatedLogoView",
+        "printedName": "AnimatedLogoView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedLogoView",
+                "printedName": "AIArtKit.AnimatedLogoView",
+                "usr": "s:8AIArtKit16AnimatedLogoViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AIArtKit16AnimatedLogoViewVACycfc",
+            "mangledName": "$s8AIArtKit16AnimatedLogoViewVACycfc",
+            "moduleName": "AIArtKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AIArtKit16AnimatedLogoViewV4bodyQrvp",
+            "mangledName": "$s8AIArtKit16AnimatedLogoViewV4bodyQrvp",
+            "moduleName": "AIArtKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AIArtKit16AnimatedLogoViewV4bodyQrvg",
+                "mangledName": "$s8AIArtKit16AnimatedLogoViewV4bodyQrvg",
+                "moduleName": "AIArtKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8AIArtKit16AnimatedLogoViewV",
+        "mangledName": "$s8AIArtKit16AnimatedLogoViewV",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AIArtKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Images\/ImageEditParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2686,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 18,
+      "value": "\"hate\/threatening\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1426,
+      "length": 11,
+      "value": "\"self-harm\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 15,
+      "value": "\"sexual\/minors\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 18,
+      "value": "\"violence\/graphic\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 18,
+      "value": "\"hate\/threatening\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1426,
+      "length": 11,
+      "value": "\"self-harm\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 15,
+      "value": "\"sexual\/minors\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategoryScore.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 18,
+      "value": "\"violence\/graphic\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Images\/ImageVariationParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1348,
+      "length": 12,
+      "value": "\"batch_size\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 26,
+      "value": "\"learning_rate_multiplier\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1449,
+      "length": 10,
+      "value": "\"n_epochs\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
+      "length": 20,
+      "value": "\"prompt_loss_weight\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1348,
+      "length": 12,
+      "value": "\"batch_size\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 26,
+      "value": "\"learning_rate_multiplier\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1449,
+      "length": 10,
+      "value": "\"n_epochs\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneHyperparameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
+      "length": 20,
+      "value": "\"prompt_loss_weight\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Choice.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 15,
+      "value": "\"finish_reason\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Choice.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 15,
+      "value": "\"finish_reason\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Embeddings\/EmbeddingsUsage.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 15,
+      "value": "\"prompt_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Embeddings\/EmbeddingsUsage.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 14,
+      "value": "\"total_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Embeddings\/EmbeddingsUsage.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 15,
+      "value": "\"prompt_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Embeddings\/EmbeddingsUsage.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 14,
+      "value": "\"total_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1475,
+      "length": 18,
+      "value": "\"fine_tuned_model\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 17,
+      "value": "\"organization_id\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 14,
+      "value": "\"result_files\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 18,
+      "value": "\"validation_files\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 16,
+      "value": "\"training_files\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1750,
+      "length": 12,
+      "value": "\"updated_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1475,
+      "length": 18,
+      "value": "\"fine_tuned_model\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 17,
+      "value": "\"organization_id\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 14,
+      "value": "\"result_files\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 18,
+      "value": "\"validation_files\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 16,
+      "value": "\"training_files\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTune.swift",
+      "kind": "StringLiteral",
+      "offset": 1750,
+      "length": 12,
+      "value": "\"updated_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/AIArtConfigurator.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 18,
+      "value": "\"ai art generator\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/AIArtConfigurator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 298,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/AIArtConfigurator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/AIArtConfigurator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5427,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/AIArtConfigurator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1558,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1558,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "Dictionary",
+      "offset": 3576,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Extensions\/URLSessionExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Usage.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 15,
+      "value": "\"prompt_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Usage.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 19,
+      "value": "\"completion_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Usage.swift",
+      "kind": "StringLiteral",
+      "offset": 1407,
+      "length": 14,
+      "value": "\"total_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Usage.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 15,
+      "value": "\"prompt_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Usage.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 19,
+      "value": "\"completion_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/OpenAI\/Usage.swift",
+      "kind": "StringLiteral",
+      "offset": 1407,
+      "length": 14,
+      "value": "\"total_tokens\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "Array",
+      "offset": 7067,
+      "length": 17,
+      "value": "[\"<|endoftext|>\"]"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7142,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 7176,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 7204,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7268,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7358,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7382,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 7482,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 7550,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Completions\/CompletionParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7577,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ResponseFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 1329,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ResponseFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 10,
+      "value": "\"b64_json\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ResponseFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 1329,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ResponseFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 10,
+      "value": "\"b64_json\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Edits\/EditParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2675,
+      "length": 4,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Edits\/EditParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2739,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Edits\/EditParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 2772,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Edits\/EditParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 2800,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 17,
+      "value": "\"category_scores\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 17,
+      "value": "\"category_scores\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Moderations\/ContentPolicyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 24,
+      "value": "\"text-moderation-latest\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Moderations\/ContentPolicyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1895,
+      "length": 24,
+      "value": "\"text-moderation-stable\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Moderations\/ContentPolicyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 24,
+      "value": "\"text-moderation-latest\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Moderations\/ContentPolicyModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1895,
+      "length": 24,
+      "value": "\"text-moderation-stable\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Files\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Files\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 16,
+      "value": "\"status_details\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Files\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Files\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 16,
+      "value": "\"status_details\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1415,
+      "length": 21,
+      "value": "\"allow_create_engine\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 16,
+      "value": "\"allow_sampling\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 16,
+      "value": "\"allow_logprobs\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 22,
+      "value": "\"allow_search_indices\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1611,
+      "length": 12,
+      "value": "\"allow_view\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 19,
+      "value": "\"allow_fine_tuning\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1746,
+      "length": 13,
+      "value": "\"is_blocking\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1415,
+      "length": 21,
+      "value": "\"allow_create_engine\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 16,
+      "value": "\"allow_sampling\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 16,
+      "value": "\"allow_logprobs\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 22,
+      "value": "\"allow_search_indices\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1611,
+      "length": 12,
+      "value": "\"allow_view\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 19,
+      "value": "\"allow_fine_tuning\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/ModelPermission.swift",
+      "kind": "StringLiteral",
+      "offset": 1746,
+      "length": 13,
+      "value": "\"is_blocking\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 18,
+      "value": "\"hate\/threatening\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1418,
+      "length": 11,
+      "value": "\"self-harm\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1482,
+      "length": 15,
+      "value": "\"sexual\/minors\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1555,
+      "length": 18,
+      "value": "\"violence\/graphic\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 18,
+      "value": "\"hate\/threatening\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1418,
+      "length": 11,
+      "value": "\"self-harm\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1482,
+      "length": 15,
+      "value": "\"sexual\/minors\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Moderations\/ContentPolicyCategories.swift",
+      "kind": "StringLiteral",
+      "offset": 1555,
+      "length": 18,
+      "value": "\"violence\/graphic\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Fine-tunes\/CreateFineTuneParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 6410,
+      "length": 7,
+      "value": "\"curie\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Fine-tunes\/CreateFineTuneParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6442,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Fine-tunes\/CreateFineTuneParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 6558,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Fine-tunes\/CreateFineTuneParameters.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6609,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 10,
+      "value": "\"owned_by\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Models\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 10,
+      "value": "\"owned_by\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/LicenseValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 31,
+      "value": "\"CodeCanyon_Item_Purchase_Code\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Schemas\/Fine-tunes\/FineTuneEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 18,
+      "value": "\"model_permission\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 17,
+      "value": "\"text_completion\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1712,
+      "length": 11,
+      "value": "\"fine-tune\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1788,
+      "length": 17,
+      "value": "\"fine-tune-event\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 18,
+      "value": "\"model_permission\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 17,
+      "value": "\"text_completion\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1712,
+      "length": 11,
+      "value": "\"fine-tune\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/OpenAI\/OpenAIObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1788,
+      "length": 17,
+      "value": "\"fine-tune-event\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Structs\/Parameters\/Images\/ImageParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2119,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageResolutions.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 9,
+      "value": "\"256x256\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageResolutions.swift",
+      "kind": "StringLiteral",
+      "offset": 1378,
+      "length": 9,
+      "value": "\"512x512\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageResolutions.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 11,
+      "value": "\"1024x1024\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageResolutions.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 9,
+      "value": "\"256x256\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageResolutions.swift",
+      "kind": "StringLiteral",
+      "offset": 1378,
+      "length": 9,
+      "value": "\"512x512\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageResolutions.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 11,
+      "value": "\"1024x1024\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageData.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 10,
+      "value": "\"b64_json\""
+    },
+    {
+      "filePath": "\/Users\/apps4world\/apps4world-frameworks\/Apps4World\/OpenAIKit\/Types\/Enums\/Images\/ImageData.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 10,
+      "value": "\"b64_json\""
+    }
+  ]
+}

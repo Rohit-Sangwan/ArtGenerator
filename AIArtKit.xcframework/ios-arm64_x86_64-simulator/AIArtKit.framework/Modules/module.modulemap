@@ -1,0 +1,11 @@
+framework module AIArtKit {
+  umbrella header "AIArtKit.h"
+
+  export *
+  module * { export * }
+}
+
+module AIArtKit.Swift {
+  header "AIArtKit-Swift.h"
+  requires objc
+}

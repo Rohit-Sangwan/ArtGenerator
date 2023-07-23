@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AIArtKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AIArtKit
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers open class AIArtConfigurator : ObjectiveC.NSObject {
+  public static var shared: AIArtKit.AIArtConfigurator
+  public static var root: UIKit.UIViewController?
+  public static func configure(purchaseCode code: Swift.String, rootController: UIKit.UIViewController?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class AIArtManager : ObjectiveC.NSObject {
+  open var canGenerateMoreArt: Swift.Bool {
+    get
+  }
+  open func presentLimitErrorAlert()
+  open func presentGenericErrorAlert()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func generateImage(promptText: Swift.String, apiKey: Swift.String) async -> UIKit.UIImage?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct AnimatedLogoView : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AIArtKit16AnimatedLogoViewV4bodyQrvp", 0) __
+}
